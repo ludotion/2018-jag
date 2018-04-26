@@ -1,11 +1,11 @@
 {
 	"archaist": [{
-			"type": "simple",
+			"type": "intro",
 			"nick": "null",
 			"message": "Archaist is your aspie friend. That's comes in hand since she likes arcaic words. A child asked: Why do you speak so funny? She answered: You are the one whom speak so funny! Contrary to expectations, she is a teenager,too."
 		},
 		{
-			"type": "simple",
+			"type": "date",
 			"message": "Today"
 		},
 		{
@@ -17,18 +17,21 @@
 			"type": "select",
 			"choices": [{
 					"title": "Hello. How are you?",
+					"color": "Yellow"
 					"action": "result1",
-					"gotoArrayindex": 1
+					"gotoArrayindex": 4
 				},
 				{
 					"title": "Hey, can I help you? Are you fine?",
+					"color": "Green"
 					"action": "result2",
-					"gotoArrayindex": 2
+					"gotoArrayindex": 5
 				},
 				{
 					"title": "I’m here, darling, what can I do for you? c:",
+					"color": "Red"
 					"action": "result3",
-					"gotoArrayindex": 3
+					"gotoArrayindex": 6
 				}
 			]
 		},
@@ -58,7 +61,7 @@
 					"nick": "hellenvic:",
 					"message": "You aren’t bothering. To be honest chatting will made me better, specially with a dearest friend. Wanna talk about what happened to you?",
 					"action": "backhierarchy",
-					"gotoArrayindex": 4
+					"gotoArrayindex": 
 				}
 			]
 		}
