@@ -17,19 +17,19 @@
 			"type": "select",
 			"choices": [{
 					"title": "Hello. How are you?",
-					"color": "Yellow"
+					"color": "Yellow",
 					"action": "result1",
 					"gotoArrayindex": 4
 				},
 				{
 					"title": "Hey, can I help you? Are you fine?",
-					"color": "Green"
+					"color": "Green",
 					"action": "result2",
 					"gotoArrayindex": 5
 				},
 				{
 					"title": "I’m here, darling, what can I do for you? c:",
-					"color": "Red"
+					"color": "Red",
 					"action": "result3",
 					"gotoArrayindex": 6
 				}
@@ -61,7 +61,7 @@
 					"nick": "hellenvic:",
 					"message": "You aren’t bothering. To be honest chatting will made me better, specially with a dearest friend. Wanna talk about what happened to you?",
 					"action": "backhierarchy",
-					"gotoArrayindex": 
+					"gotoArrayindex": ""
 				}
 			]
 		}
