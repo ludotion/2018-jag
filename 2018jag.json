@@ -2,7 +2,7 @@
 	"archaist": [{
 			"type": "intro",
 			"nick": "null",
-			"message": "Archaist is your aspie friend. That's comes in hand since she likes arcaic words. A child asked: Why do you speak so funny? She answered: You are the one whom speak so funny! Contrary to expectations, she is a teenager,too."
+			"message": "Archaist is your aspie friend. That's comes in hand since she likes arcaic words. A child asked: Why do you speak so funny? She answered: You are the one whom speak so funny! Contrary to expectations, she is a teenager, too.§"
 		},
 		{
 			"type": "date",
@@ -11,24 +11,24 @@
 		{
 			"type": "simple",
 			"nick": "archaist:",
-			"message": "hi, hellen, are you here? I miss you."
+			"message": "hi, hellen, are you here? I miss you.§"
 		},
 		{
 			"type": "select",
 			"choices": [{
-					"title": "Hello. How are you?",
+					"title": "Hello. How are you?§",
 					"color": "Yellow",
 					"action": "result1",
 					"gotoArrayindex": 4
 				},
 				{
-					"title": "Hey, can I help you? Are you fine?",
+					"title": "Hey, can I help you? Are you fine?§",
 					"color": "Green",
 					"action": "result2",
 					"gotoArrayindex": 5
 				},
 				{
-					"title": "I’m here, darling, what can I do for you? c:",
+					"title": "I’m here, darling, what can I do for you? c:§",
 					"color": "Red",
 					"action": "result3",
 					"gotoArrayindex": 6
@@ -39,27 +39,27 @@
 			"result1": [{
 					"type": "simple",
 					"nick": "hellenvic:",
-					"message": "Hello. How are you?"
+					"message": "Hello. How are you?§"
 				},
 				{
 					"type": "simple",
 					"nick": "archaist:",
-					"message": " i’m pretty bad. And you?"
+					"message": " i’m pretty bad. And you?§"
 				},
 				{
 					"type": "simple",
 					"nick": "hellenvic:",
-					"message": " Well, just a bit exhausted."
+					"message": " Well, just a bit exhausted.§"
 				},
 				{
 					"type": "simple",
 					"nick": "archaist:",
-					"message": "oh, sorry I don’t want to bother."
+					"message": "oh, sorry I don’t want to bother.§"
 				},
 				{
 					"type": "simple",
 					"nick": "hellenvic:",
-					"message": "You aren’t bothering. To be honest chatting will made me better, specially with a dearest friend. Wanna talk about what happened to you?",
+					"message": "You aren’t bothering. To be honest chatting will made me better, specially with a dearest friend. Wanna talk about what happened to you?§",
 					"action": "backhierarchy",
 					"gotoArrayindex": ""
 				}
